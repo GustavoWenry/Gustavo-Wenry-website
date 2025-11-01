@@ -4,30 +4,32 @@ import { Star } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Maria Silva",
-      role: "Arquiteta",
-      content: "Minha agenda lotou em uma semana depois da página do Gustavo! O design ficou incrível e os clientes adoraram.",
+      name: "João Victor",
+      role: "Filmmaker e Fotógrafo",
+      content:
+        "Melhor investimento que fiz para meu negócio.Depois que meu site ficou pronto, veio diversas pessoas falando que me encontraram através de pesquisarem no Google!",
       rating: 5,
       avatar: "MS",
     },
     {
-      name: "Mariany Tenori",
+      name: "Mariana Tavares",
       role: "Lash Designer e Extensionista de Cílios",
-      content: "Atendimento incrível, site lindo e super funcional! Aumentei minhas conversões em 300%.",
+      content: "Exelente profissional! Agregou muito valor ao meu negócio.",
       rating: 5,
       avatar: "MT",
     },
     {
       name: "Ana Paula",
       role: "Dentista",
-      content: "Profissional excepcional! Entregou antes do prazo e o resultado superou minhas expectativas.",
+      content:
+        "Profissional excepcional! Entregou antes do prazo e o resultado superou minhas expectativas.",
       rating: 5,
       avatar: "AP",
     },
     {
       name: "Gabriele Tainara",
       role: "Personal Trainer",
-      content: "Melhor investimento que fiz para meu negócio. Landing page profissional e com ótima performance.",
+      content: "Atendimento incrível, site ficou do jeitinho que eu queria.",
       rating: 5,
       avatar: "GT",
     },
@@ -36,7 +38,7 @@ const Testimonials = () => {
   return (
     <section id="depoimentos" className="py-24 relative">
       <div className="absolute inset-0 bg-gradient-to-b from-background via-card/30 to-background"></div>
-      
+
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
@@ -61,10 +63,13 @@ const Testimonials = () => {
                 <CardContent className="p-8">
                   <div className="flex gap-1 mb-4">
                     {[...Array(testimonial.rating)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-primary text-primary" />
+                      <Star
+                        key={i}
+                        className="w-5 h-5 fill-primary text-primary"
+                      />
                     ))}
                   </div>
-                  
+
                   <p className="text-muted-foreground mb-6 leading-relaxed italic">
                     "{testimonial.content}"
                   </p>
@@ -75,7 +80,9 @@ const Testimonials = () => {
                     </div>
                     <div>
                       <div className="font-semibold">{testimonial.name}</div>
-                      <div className="text-sm text-muted-foreground">{testimonial.role}</div>
+                      <div className="text-sm text-muted-foreground">
+                        {testimonial.role}
+                      </div>
                     </div>
                   </div>
                 </CardContent>

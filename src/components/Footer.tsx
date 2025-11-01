@@ -67,13 +67,13 @@ const Footer = () => {
               <ul className="space-y-3">
                 <li>
                   <a
-                    href="https://instagram.com/_wenry__  "
+                    href="https://instagram.com/wenrydev  "
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
                   >
                     <Instagram className="w-4 h-4" />
-                    @_wenry__
+                    @wenrydev
                   </a>
                 </li>
                 <li>

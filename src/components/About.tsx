@@ -22,7 +22,7 @@ const About = () => {
 
             <div className="animate-slide-in">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Quem é {" "}
+                Quem é{" "}
                 <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
                   Gustavo Wenry?
                 </span>
@@ -44,7 +44,7 @@ const About = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">
-                      Experiência com React, Node.js e Tailwind
+                      Experiência com React, Node.js, Java Script e Tailwind
                     </h3>
                     <p className="text-sm text-muted-foreground">
                       Tecnologias modernas para sites rápidos e responsivos

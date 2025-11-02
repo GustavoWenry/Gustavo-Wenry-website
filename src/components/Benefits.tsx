@@ -7,7 +7,7 @@ const Benefits = () => {
       icon: TrendingUp,
       title: "Aumente suas vendas todos os dias",
       description:
-        "Sites Profissionais eotimizados para converter visitantes em clientes reais",
+        "Sites Profissionais otimizados para converter visitantes em clientes reais",
       color: "primary",
     },
     {

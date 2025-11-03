@@ -33,6 +33,22 @@ const Testimonials = () => {
       rating: 5,
       avatar: "GT",
     },
+    {
+      name: "Maria Luiza",
+      role: "Empresária",
+      content:
+        "A atualização do nosso site modernizou muito a nossa presença online. O novo layout é elogiado frequentemente por parceiros e clientes, e a equipe interna consegue gerenciar o conteúdo sem dificuldades. O projeto foi conduzido com muito profissionalismo.",
+      rating: 5,
+      avatar: "ML",
+    },
+    {
+      name: "Geovane Lima",
+      role: "Marketing Digital",
+      content:
+        "O site capturou perfeitamente a atmosfera que eu queria passar: profissionalismo e acolhimento. Agora consigo me comunicar melhor com a minha audiência e centralizar meu trabalho em um único lugar. A experiência de construir isso foi bem fluida.",
+      rating: 5,
+      avatar: "GL",
+    },
   ];
 
   return (
